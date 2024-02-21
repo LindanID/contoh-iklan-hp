@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <!-- heade start -->
+    <header class="" id="container-home">
+      <div class="container w-full h-dvh bg-neutral-500 flex">
+        <div
+          class="w-4/5 h-4/5 flex flex-col lg:flex-row mx-auto my-auto shadow-xl shadow-black/50 rounded-lg bg-neutral-600 px-12 py-8"
+        >
+          <div class="w-full lg:w-1/2 flex flex-col">
+            <!-- navbar start -->
+            <nav
+              id="navbar"
+              class="flex justify-between items-start py-2 capitalize"
+            >
+              <div class="flex gap-4">
+                <!-- icon apple start -->
+                <span class="text-white"
+                  ><svg
+                    fill="none"
+                    class="fill-current w-5 h-5"
+                    viewBox="0 0 1920 1920"
+                    xmlns="http://www.w3.org/2000/svg"
+                    stroke="#ffffff"
+                  >
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                    <g
+                      id="SVGRepo_tracerCarrier"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></g>
+                    <g id="SVGRepo_iconCarrier">
+                      <path
+                        d="M972.669 550.592c74.37 0 213.815-103.393 360.63-88.315 61.446 2.608 233.881 25.282 344.644 190.462-8.843 5.895-205.88 122.78-203.5 366.184 2.495 290.908 249.982 387.499 252.816 388.973-2.268 6.575-39.566 137.857-130.489 273.448-78.565 117.111-159.965 233.655-288.3 236.036-126.18 2.494-166.767-76.298-311.087-76.298-144.206 0-189.214 73.917-308.706 78.792-123.913 4.762-218.237-126.52-297.37-243.178-161.892-238.87-285.578-674.665-119.491-968.86 82.42-146.133 229.8-238.643 389.879-241.024 121.646-2.267 236.603 83.78 310.974 83.78ZM1367.75 0c13.038 110.536-34.69 221.525-105.093 301.45-70.743 79.813-186.494 141.94-299.977 133.55-15.305-108.495 41.947-221.184 107.248-292.154C1142.939 63.034 1266.172 3.855 1367.75 0Z"
+                        fill-rule="evenodd"
+                      ></path>
+                    </g></svg
+                ></span>
+                <!-- icon apple end -->
+
+                <!-- hamburger menu start -->
+                <button id="btn-menu">
+                  <span
+                    class="text-white z-99 absolute top-[110px] left-12 lg:top-[100px] lg:left-56"
+                    ><svg
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      class="fill-current w-5 h-5"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                      <g
+                        id="SVGRepo_tracerCarrier"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      ></g>
+                      <g id="SVGRepo_iconCarrier">
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M20.75 7C20.75 7.41421 20.4142 7.75 20 7.75L4 7.75C3.58579 7.75 3.25 7.41421 3.25 7C3.25 6.58579 3.58579 6.25 4 6.25L20 6.25C20.4142 6.25 20.75 6.58579 20.75 7Z"
+                          fill="white"
+                        ></path>
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M20.75 12C20.75 12.4142 20.4142 12.75 20 12.75L4 12.75C3.58579 12.75 3.25 12.4142 3.25 12C3.25 11.5858 3.58579 11.25 4 11.25L20 11.25C20.4142 11.25 20.75 11.5858 20.75 12Z"
+                          fill="white"
+                        ></path>
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M20.75 17C20.75 17.4142 20.4142 17.75 20 17.75L4 17.75C3.58579 17.75 3.25 17.4142 3.25 17C3.25 16.5858 3.58579 16.25 4 16.25L20 16.25C20.4142 16.25 20.75 16.5858 20.75 17Z"
+                          fill="white"
+                        ></path>
+                      </g></svg
+                  ></span>
+                </button>
+                <!-- hamburger menu end -->
+              </div>
+
+              <!-- navbar button start -->
+              <ul class="text-white text-md flex gap-4">
+                <li><a href="#container-home">home</a></li>
+                <li><a href="#container-price">price</a></li>
+                <button
+                  id="btn-spech"
+                  class="hover:text-red-500 active:text-red-500 focus:text-red-500 z-50"
+                >
+                  spech
+                </button>
+              </ul>
+              <!-- navbar button end -->
+
+              <!-- icon search start -->
+              <div>
+                <span class="text-white hidden lg:block"
+                  ><svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    class="fill-current w-5 h-5"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                    <g
+                      id="SVGRepo_tracerCarrier"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></g>
+                    <g id="SVGRepo_iconCarrier">
+                      <path
+                        d="M14.9536 14.9458L21 21M17 10C17 13.866 13.866 17 10 17C6.13401 17 3 13.866 3 10C3 6.13401 6.13401 3 10 3C13.866 3 17 6.13401 17 10Z"
+                        stroke="#ffffff"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      ></path>
+                    </g></svg
+                ></span>
+              </div>
+              <!-- icon searh end -->
+            </nav>
+            <!-- navbar end -->
+
+            <!-- home bagian1 start -->
+            <div
+              class="w-full h-[170px] lg:h-[350px] flex justify-center items-center"
+            >
+              <div class="flex flex-col justify-center items-start text-white">
+                <h3
+                  class="uppercase text-xs lg:text-md font-semibold lg:mb-4 lg:mt-20"
+                >
+                  iphone xr
+                </h3>
+                <h1 class="text-white text-2xl lg:text-4xl font-semibold">
+                  Better than fast.
+                </h1>
+                <h5 class="text-xs capitalize">chip A12 bionic</h5>
+                <h5 class="text-xs lg:mt-40 font-semibold">
+                  Rp13.499.000 - 14.499.000
+                </h5>
+              </div>
+            </div>
+            <!-- home bagian1 end -->
+          </div>
+
+          <!-- home bagian2 start -->
+          <div class="w-full lg:w-1/2">
+            <div class="w-full flex justify-center items-center">
+              <h5 class="text-xs text-black mt-56 font-semibold mr-2">
+                Black<br /><span class="text-white">64/128</span>
+              </h5>
+              <img
+                src="src/xr-black.png"
+                alt="iphone14"
+                class="-mt-2 w-22 md:w-60"
+                id="img-phone"
+              />
+            </div>
+          </div>
+          <!-- home bagian2 end -->
+
+          <!-- spesifikasi start -->
+          <div
+            class="bg-black/50 backdrop-blur-md rounded-md self-center px-8 py-8 absolute top-38 hidden"
+            id="spech"
+          >
+            <h1 class="text-white capitalize font-semibold text-center">
+              iphone xr - spesifikasi teknis
+            </h1>
+
+            <div>
+              <table>
+                <!-- spesifikasi bagian 1 start -->
+                <thead>
+                  <th class="text-white uppercase">umum</th>
+                </thead>
+                <tbody class="text-white">
+                  <tr class="border-y border-white gap-4">
+                    <td class="font-semibold text-lg capitalize">
+                      tahun rilis
+                    </td>
+                    <td class="px-2">:</td>
+                    <td>2018</td>
+                  </tr>
+                  <tr class="border-y border-white gap-4">
+                    <td class="font-semibold text-lg capitalize">jaringan</td>
+                    <td class="px-2">:</td>
+                    <td>2g, 3g, 4g</td>
+                  </tr>
+                  <tr class="border-y border-white gap-4">
+                    <td class="font-semibold text-lg capitalize">sim card</td>
+                    <td class="px-2">:</td>
+                    <td>single sim</td>
+                  </tr>
+                  <tr class="border-y border-white gap-4">
+                    <td class="font-semibold text-lg capitalize">esim</td>
+                    <td class="px-2">:</td>
+                    <td>ya</td>
+                  </tr>
+                </tbody>
+                <!-- spesifikasi bagian 1 end -->
+
+                <!-- spesifikasi bagian 2 start -->
+                <thead>
+                  <th class="text-white">body</th>
+                </thead>
+                <tbody class="text-white">
+                  <tr class="border-y border-white gap-4">
+                    <td class="font-semibold text-lg capitalize">dimensi</td>
+                    <td class="px-2">:</td>
+                    <td>150,9 x 75,7 x 83 mm</td>
+                  </tr>
+                  <tr class="border-y border-white gap-4">
+                    <td class="font-semibold text-lg capitalize">berat</td>
+                    <td class="px-2">:</td>
+                    <td>194</td>
+                  </tr>
+                  <tr class="border-y border-white gap-4">
+                    <td class="font-semibold text-lg capitalize">ketahanan</td>
+                    <td class="px-2">:</td>
+                    <td>ip67 (hingga 1m selama 30 menit)</td>
+                  </tr>
+                </tbody>
+                <!-- spesifikasi bagian 2 end -->
+              </table>
+            </div>
+          </div>
+          <!-- spesifikasi end -->
+        </div>
+      </div>
+    </header>
+    <!-- header end -->
+
+    <!-- menu start -->
+    <main>
+      <!-- menu colors start-->
+      <section
+        id="colors-menu"
+        class="hidden transition-all duration-1000 easy-in-out"
+      >
+        <div
+          class="container w-full flex justify-center items-center mx-auto absolute top-24 mt-20"
+        >
+          <div
+            class="w-4/5 flex flex-wrap justify-center items-center bg-black/70 backdrop-blur-md px-4 py-8 rounded-lg"
+          >
+            <!-- colors 1 -->
+            <div
+              class="w-1/2 lg:w-1/6 flex flex-col justify-center items-center"
+            >
+              <img
+                src="src/xr-blue.png"
+                alt=""
+                class="w-20 max-w-full h-auto"
+              />
+              <h3 class="text-blue-500 capitalize font-semibold">blue</h3>
+            </div>
+            <!-- colors 2 -->
+            <div
+              class="w-1/2 lg:w-1/6 flex flex-col justify-center items-center"
+            >
+              <img src="src/xr-orange.png" alt="" class="w-20 h-auto" />
+              <h3 class="text-orange-500 capitalize font-semibold">orange</h3>
+            </div>
+            <!-- colors 3 -->
+            <div
+              class="w-1/2 lg:w-1/6 flex flex-col justify-center items-center"
+            >
+              <img src="src/xr-red.png" alt="" class="w-28 h-auto" />
+              <h3 class="text-red-500 capitalize font-semibold">red</h3>
+            </div>
+            <!-- colors 4 -->
+            <div
+              class="w-1/2 lg:w-1/6 flex flex-col justify-center items-center"
+            >
+              <img src="src/xr-black.png" alt=" " class="w-20 h-auto" />
+              <h3 class="text-black capitalize font-semibold">black</h3>
+            </div>
+            <!-- colors 5 -->
+            <div
+              class="w-1/2 lg:w-1/6 flex flex-col justify-center items-center"
+            >
+              <img src="src/xr-white.png" alt=" " class="w-36 h-auto" />
+              <h3 class="text-white capitalize px-2 bg-black font-semibold">
+                white
+              </h3>
+            </div>
+            <!-- colors 6 -->
+            <div
+              class="w-1/2 lg:w-1/6 flex flex-col justify-center items-center"
+            >
+              <img src="src/xr-yellow.png" alt="" class="w-36 h-auto" />
+              <h3 class="text-yellow-500 capitalize font-semibold">yellow</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- menu colors end -->
+
+      <!-- menu price start -->
+      <section id="container-price">
+        <div class="container w-full h-dvh bg-neutral-500 flex">
+          <div
+            class="w-4/5 h-4/5 flex flex-col mx-auto my-auto shadow-xl shadow-black/50 rounded-lg bg-neutral-600 px-12 py-8"
+          >
+            <div class="w-full flex flex-col">
+              <nav
+                id="navbar"
+                class="flex justify-between items-start py-2 capitalize"
+              >
+                <div class="flex gap-4">
+                  <!-- icon apple start -->
+                  <span class="text-white"
+                    ><svg
+                      fill="none"
+                      class="fill-current w-5 h-5"
+                      viewBox="0 0 1920 1920"
+                      xmlns="http://www.w3.org/2000/svg"
+                      stroke="#ffffff"
+                    >
+                      <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                      <g
+                        id="SVGRepo_tracerCarrier"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      ></g>
+                      <g id="SVGRepo_iconCarrier">
+                        <path
+                          d="M972.669 550.592c74.37 0 213.815-103.393 360.63-88.315 61.446 2.608 233.881 25.282 344.644 190.462-8.843 5.895-205.88 122.78-203.5 366.184 2.495 290.908 249.982 387.499 252.816 388.973-2.268 6.575-39.566 137.857-130.489 273.448-78.565 117.111-159.965 233.655-288.3 236.036-126.18 2.494-166.767-76.298-311.087-76.298-144.206 0-189.214 73.917-308.706 78.792-123.913 4.762-218.237-126.52-297.37-243.178-161.892-238.87-285.578-674.665-119.491-968.86 82.42-146.133 229.8-238.643 389.879-241.024 121.646-2.267 236.603 83.78 310.974 83.78ZM1367.75 0c13.038 110.536-34.69 221.525-105.093 301.45-70.743 79.813-186.494 141.94-299.977 133.55-15.305-108.495 41.947-221.184 107.248-292.154C1142.939 63.034 1266.172 3.855 1367.75 0Z"
+                          fill-rule="evenodd"
+                        ></path>
+                      </g></svg
+                  ></span>
+                  <!-- icon apple end -->
+                </div>
+                <!-- navbar start -->
+                <ul class="text-white text-md flex gap-4">
+                  <li><a href="#container-home">home</a></li>
+                  <li><a href="#container-price">price</a></li>
+                  <button
+                    id="btn-spech"
+                    class="hover:text-red-500 active:text-red-500 focus:text-red-500 z-50"
+                  >
+                    spech
+                  </button>
+                </ul>
+                <!-- navbar end -->
+              </nav>
+            </div>
+            <div class="w-full flex jsutify-center items-center divide-x-2">
+              <!-- ibox start -->
+              <div class="w-1/2 flex flex-col justify-center items-center">
+                <div>
+                  <h1 class="text-3xl font-bold">iBox</h1>
+                </div>
+                <div class="flex justify-center items-center">
+                  <img src="src/xr-black.png" alt="iphone black" class="w-32" />
+                </div>
+                <div class="text-lg font-bold text-white">
+                  <h3>- 64 gb <span>Rp5.195.000</span></h3>
+                  <h3>- 128 gb <span>Rp5.975.000</span></h3>
+                  <h3>- 256 gb <span>Rp6.575.000</span></h3>
+                </div>
+              </div>
+              <!-- ibox end -->
+
+              <!-- inter start -->
+              <div class="w-1/2 flex flex-col justify-center items-center">
+                <div>
+                  <h1 class="text-3xl font-bold">inter</h1>
+                </div>
+                <div class="flex justify-center items-center">
+                  <img
+                    src="src/xr-orange.png"
+                    alt="iphone black"
+                    class="w-32"
+                  />
+                </div>
+                <div class="text-lg font-bold text-white">
+                  <h3>- 64 gb <span>Rp4.700.000</span></h3>
+                  <h3>- 128 gb <span>Rp5.000.000</span></h3>
+                  <h3>- 256 gb <span>Rp5.929.000</span></h3>
+                </div>
+              </div>
+              <!-- inter end -->
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- menu price end -->
+    </main>
+    <!-- menu end -->
+
+    <!-- footer start -->
+    <footer class="bg-slate-950 text-white py-4 border-t border-white">
+      <div class="container mx-auto text-center">
+        <p>&copy; 2024 Lindan Maulana. All rights reserved.</p>
+        <p>Address: Jl. Pahing General No. 0603, Kota Kuningan, 12345</p>
+        <p>Email: info@lindanmaulana.com | Phone: +62 853 227 011 20</p>
+      </div>
+    </footer>
+    <!-- footer end -->
+
+    <!-- script js -->
+    <script type="text/javascript" src="data.js"></script>
+  </body>
+</html>
